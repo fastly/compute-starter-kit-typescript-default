@@ -1,14 +1,12 @@
 {
   "type": "module",
-  "engines": {
-    "node": "^16 || >=18"
+  "private": true,
+  "dependencies": {
+    "@fastly/js-compute": "^3.33.2"
   },
   "devDependencies": {
-    "@fastly/cli": "^10.14.0",
+    "@fastly/cli": "^11.0.0",
     "typescript": "^5.2.2"
-  },
-  "dependencies": {
-    "@fastly/js-compute": "^3.7.0"
   },
   "scripts": {
     "prebuild": "tsc",
