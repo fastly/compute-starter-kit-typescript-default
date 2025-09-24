@@ -19,7 +19,7 @@ This starter kit is written in TypeScript and illustrates the same features as t
 
 The Compute JavaScript SDK [has built-in support](https://www.fastly.com/documentation/guides/compute/developer-guides/javascript/#built-in-typescript) for executing TypeScript source files that contain only erasable TypeScript syntax. In this mode, type checking is not performed.
 
-The SDK does not directly refer to the `tsconfig.json` file, but one is included to aid your IDE in coding support as well as to illustrate the recommended practice of running `tsc --noEmit` in a `prebuild` script to check for TypeScript error, since the SDK does not perform type checking.
+The SDK does not directly refer to the `tsconfig.json` file, but one is included to aid your IDE in coding support as well as to illustrate the recommended practice of running `tsc --noEmit` in a `prebuild` script to check for TypeScript errors, since the SDK does not perform type checking.
 
 ## Running the application
 
