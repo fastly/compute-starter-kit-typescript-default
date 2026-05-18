@@ -2,11 +2,11 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "@fastly/js-compute": "^3.41.0"
+    "@fastly/js-compute": "^3.42.0"
   },
   "devDependencies": {
-    "@fastly/cli": "^14.0.0",
-    "typescript": "^6.0.2"
+    "@fastly/cli": "^15.1.0",
+    "typescript": "^6.0.3"
   },
   "scripts": {
     "prebuild": "tsc --noEmit",
